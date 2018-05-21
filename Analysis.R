@@ -7,7 +7,7 @@ sum(is.na(train))
 # No NA's in the data set
 
 length(colnames(train))
-head(colnames(train))
+head(colnames(train)) 
 
 # summary of times taken for testing
 summary(train$y)
