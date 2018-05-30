@@ -3,7 +3,7 @@ rm(list = ls())
 
 # Reading the data
 train = read.csv('train.csv')
-sum(is.na(train))
+sum(is.na(train)) 
 # No NA's in the data set
 
 length(colnames(train))
