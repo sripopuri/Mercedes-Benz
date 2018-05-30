@@ -18,7 +18,7 @@ getintcols = function(x,p = "integer"){
   
   vec = character()
   for(i in 1:ncol(x)){
-    vec[i] = class(x[,i])
+    vec[i] = class(x[,i]) 
   }
   if(p=="integer"){a = which(vec == "integer" | vec == "numeric")}
   if(p=="character"){a = which(vec == "character")}
