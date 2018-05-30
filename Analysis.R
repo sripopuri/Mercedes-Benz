@@ -14,7 +14,7 @@ summary(train$y)
 boxplot(train$y)
 
 # Function to get the type of columns
-getintcols = function(x,p = "integer"){
+getintcols = function(x,p = "integer"){ 
   
   vec = character()
   for(i in 1:ncol(x)){
